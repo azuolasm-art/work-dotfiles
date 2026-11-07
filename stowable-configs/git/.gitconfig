@@ -1,0 +1,13 @@
+[include]                                                                          
+    path = ~/.gitconfig.local                            
+[diff]
+	tool = nvimdiff
+[core]
+    autocrlf = input
+	ignorecase = false
+[user]
+    useConfigOnly = true
+[pull]
+	ff = only
+[push]
+	autoSetupRemote = true
